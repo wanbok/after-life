@@ -20,6 +20,21 @@
             <point key="canvasLocation" x="-253" y="-42"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4Dt-Xq-dJw">
+            <objects>
+                <viewController id="gfz-Yc-ycr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ouu-9x-Zyp">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XgA-Un-pP6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dse-Ww-apQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="699" y="-760"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="i6v-dE-GKg">
             <objects>
                 <viewController id="l8a-HR-R4f" sceneMemberID="viewController">
@@ -29,6 +44,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="eGs-hW-s8p"/>
+                    <connections>
+                        <segue destination="gfz-Yc-ycr" kind="push" id="K0z-G4-HTw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tbi-V2-kp4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

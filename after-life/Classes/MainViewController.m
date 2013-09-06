@@ -15,12 +15,14 @@
 @implementation MainViewController
 
 #pragma mark - UIViewController methods
+
 - (id)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
         // initializing code
     }
     return self;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
